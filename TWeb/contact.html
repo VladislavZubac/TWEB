@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Антихайп</title>
+    <link rel="stylesheet" href="css/contact.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Антихайп</h1>
+            <nav>
+                <ul>
+                    <li><a href="main.html">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="artists.html">Участники</a></li>
+                    <li><a href="music.html">Музыка</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h2>Свяжитесь с нами</h2>
+                <p>Если у вас есть вопросы, предложения или идеи для сотрудничества, заполните форму ниже.</p>
+                <form class="contact-form">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Введите ваше сообщение" required></textarea>
+
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Антихайп. Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="js/contact.js"></script>
+</body>
+</html>
